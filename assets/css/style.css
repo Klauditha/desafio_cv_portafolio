@@ -1,3 +1,17 @@
+body{
+    background-color: rgba(var(--bs-light-rgb),var(--bs-text-opacity))!important;
+    
+}
+#header {
+    max-height: 390px;
+}
+header {
+    background-image: url("../img/fondo1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    
+  }
 .navbar-brand-img{
     height: 60px;
     border: 1px blue;

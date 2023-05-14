@@ -27,7 +27,7 @@
   </head>
   <body>
     <!--navbar inicio -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img
@@ -62,40 +62,13 @@
       </div>
     </nav>
     <!--navbar fin -->
-    <h1></h1>
 
-    <div class="accordion accordion-flush" id="accordionFlushExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="flush-headingOne">
-          <button
-            class="accordion-button collapsed"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#flush-collapseOne"
-            aria-expanded="false"
-            aria-controls="flush-collapseOne"
-          >
-            RESUMEN
-          </button>
-        </h2>
-        <div
-          id="flush-collapseOne"
-          class="accordion-collapse collapse"
-          aria-labelledby="flush-headingOne"
-          data-bs-parent="#accordionFlushExample"
-        >
-          <div class="accordion-body">
-            <div class="container">
-              <div class="row">
-                <div class="col-2">
-                  <img
-                    src="./assets/img/yo.jpg"
-                    width="150px"
-                    alt="Imagen-Claudia"
-                  />
-                </div>
-                <div class="col-8 text-center">
-                  Profesional con vasta experiencia en el desarrollo de
+    <header id="header" class="text-light text-end text-light text-end py-5 mt-5">
+      <div class="container">
+        <div class="ms-auto col-12 col-md-7">
+          <h5 class="display-1 fw-bold my-2">Claudia Villarroel <br /></h5>
+          <p class="my-2">
+            Profesional con vasta experiencia en el desarrollo de
                   proyectos informáticos desde aplicaciones de escritorio, web,
                   móviles e integraciones con diferentes sistemas, utilizando
                   lenguajes y metodologías acordes a las necesidades requeridas.
@@ -104,12 +77,14 @@
                   para los usuarios finales. Capacidad para trabajar en equipos
                   multidisciplinarios, para afrontar tareas de liderazgo y de
                   responsabilidad en la toma de decisiones.
-                </div>
-              </div>
-            </div>
+          </p>
+          <div class="mb-5 pb-5">
           </div>
         </div>
       </div>
+    </header>
+
+    <div class="accordion accordion-flush" id="accordionFlushExample">
       <div class="accordion-item">
         <h2 class="accordion-header text-center" id="flush-headingTwo">
           <button
@@ -530,5 +505,11 @@
         </div>
       </div>
     </div>
+
+    <footer class="bg-dark text-center text-light p-4">
+      <p class="mb-0">
+        Claudia Villarroel 2023. Todos los derechos reservados.
+      </p>
+    </footer>
   </body>
 </html>
