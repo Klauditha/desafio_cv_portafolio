@@ -4,14 +4,20 @@ body{
 }
 #header {
     max-height: 390px;
+    
 }
+
+#header_titulo {
+    color:#c22774;
+}
+
 header {
-    background-image: url("../img/portada\ Diego.avif");
+    background-image: url("../img/fondo7.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
     max-width: 100%;
-    
+    opacity: 0.9;
   }
 .navbar-brand-img{
     height: 60px;
