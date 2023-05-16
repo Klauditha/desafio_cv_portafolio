@@ -23,4 +23,7 @@ header {
     height: 60px;
     border: 1px blue;
   }
-  
+footer{
+    margin-top: 85px;
+    width: 100%;
+}
